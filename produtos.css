@@ -74,3 +74,15 @@ nav a:hover{
 .produto-descricao{
     font-size: 18px;
 }
+
+footer{
+    text-align: center;
+    background: url("imagens/bg.jpg");
+    padding: 40px;
+}
+
+.copyrigth{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
