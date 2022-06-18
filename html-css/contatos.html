@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Contatos</title>
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <h1><a href="aula01.html"><img src="imagens/logo.png" alt="logoAlura"></a></h1>
+            <nav>
+                <ul>
+                    <li><a href="aula01.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contatos.html">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form action="">
+            <label for="nomesobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao">
+
+            <label for="email">Email</label>
+            <input type="text" id="email"class="input-padrao">
+
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone"class="input-padrao">
+
+            <label for="Menssagem">Menssagem</label>
+            <textarea name="menssagem" id="menssagem" cols="50" rows="10" class="input-padrao"></textarea>
+
+            <div id="selecao">
+                <p>Como prefere o nosso contato?</p>
+                <label for="rd-email"> <input type="radio" value="rd-email" id="rd-email" name="contato"> E-mail</label>
+                
+
+                <label for="rd-whatsapp"><input type="radio" value="rd-whatsapp" id="rd-whatsapp" name="contato">Whatsapp</label>
+                
+
+                <label for="rd-telefone"> <input type="radio" value="rd-telefone" id="rd-telefone" name="contato">Telefone</label>
+                
+
+
+            </div>
+
+            <label for=""><input type="checkbox" class="chekbox"> Gostaria de receber nossas novidades por e-mail?</label>
+            <input type="submit" value="Enviar Formulário">
+        </form>
+    </main>
+    <footer>
+        <img src="imagens/logo-branco.png" alt="logo branco">
+        <p class="copyrigth"> &copy Copyrigth Guilherme Waldschmidt</p>
+    </footer>
+</body>
+
+</html>
