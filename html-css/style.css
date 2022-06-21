@@ -92,7 +92,7 @@ main{
     margin: 0 auto;
 }
 
-form{
+form, table{
     margin: 5% 5%;
 }
 
@@ -130,4 +130,19 @@ form label{
 #enviar_formulario:hover{
     background: darkorange;
     transform: scale(1.2)
+}
+
+table, #p_tabela_titulo{
+    margin: 20px 40px;
+}
+
+thead{
+    background: #555555;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
 }
